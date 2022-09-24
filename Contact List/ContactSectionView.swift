@@ -13,17 +13,24 @@ struct ContactSectionView: View {
     
     var body: some View {
         //        Text("Contact Section View")
-        List(contacts) { contact in
-            // ТОЖЕ САМОЕ- надовынести в отдельный файл два Хстека - нет времени
-            HStack {
-                Image(systemName: "phone.down")
-                Text(contact.phone)
+        NavigationStack{
+            List {
+                ForEach(contacts) { contact in
+                    Section(header: Text(contact.fullname).font(.title)) {
+                        // ТОЖЕ САМОЕ- надовынести в отдельный файл два Хстека - нет времени
+                        HStack {
+                            Image(systemName: "phone.down")
+                            Text(contact.phone)
+                        }
+                        HStack {
+                            Image(systemName: "envelope")
+                            Text(contact.email)
+                            
+                        }
+                    }
+                }
             }
-            HStack {
-                Image(systemName: "envelope")
-                Text(contact.email)
-            }
-            
+            .navigationBarTitle("Contact List")
         }
     }
 }
