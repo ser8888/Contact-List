@@ -42,17 +42,5 @@ struct Person: Identifiable, Hashable {
         }
         return persons
     }
-  
-}
-
-class DataManager {
     
-    static let shared = DataManager()
-    private init() {}
-    
-    let firstNames = ["Uldis", "Sandis", "Janis", "Viesturs", "Ivars", "Krists", "Kaspars", "Ellijs"]
-    let lastNames = ["Ozols", "Ozolins", "Berzins", "Kolnzols", "Karins", "Zvirbulis", "Jansons", "Liepins"]
-    let emais = [ "alus@inbox.lv", "vins@inbox.lv", "janisrozes@inbox.lv", "purvis@inbox.lv", "sakta@inbox.lv", "lidosta@inbox.lv", "centrs@inbox.lv", "valoda@inbox.lv" ]
-    let phones = ["29231234","12928364","19203846", "91028365", "29401183", "23981045", "23090765", "22310485"]
 }
-

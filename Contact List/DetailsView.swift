@@ -2,7 +2,7 @@
 //  DetailsView.swift
 //  Contact List
 //
-//  Created by John Doe on 24/09/2022.
+//  Created by Sergejs Tiselskis on 24/09/2022.
 //
 
 import SwiftUI
@@ -16,7 +16,7 @@ struct DetailsView: View {
             Spacer()
             Image(systemName: "person")
                 .resizable()
-                .frame(width: 100, height: 100)
+                .frame(width: 111, height: 111)
             
             
   // тут наверняка надо вынести в отдельную структура с отдельнвс файлом 2 HStack - но уже нет времени на эту оптимизацию
@@ -31,9 +31,6 @@ struct DetailsView: View {
             }
             Spacer()
         }
-        
- 
-//        }
         .navigationBarTitle(person.fullname)
     }
 }

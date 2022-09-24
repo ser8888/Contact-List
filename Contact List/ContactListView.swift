@@ -2,7 +2,7 @@
 //  ContactListView.swift
 //  Contact List
 //
-//  Created by John Doe on 24/09/2022.
+//  Created by Sergejs Tiselskis on 24/09/2022.
 //
 
 import SwiftUI
@@ -16,13 +16,13 @@ struct ContactListView: View {
             List(contacts) { person in
                 NavigationLink(destination: DetailsView(person: person)) {
                     Text(person.fullname)
-                        .font(.title)
+//                       .font(.title)
                 }
             }
-
+            
             .navigationBarTitle("Contact List")
         }
-    
+       .padding()
     }
 }
 

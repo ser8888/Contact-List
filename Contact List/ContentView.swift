@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Contact List
 //
-//  Created by John Doe on 24/09/2022.
+//  Created by Sergejs Tiselskis on 24/09/2022.
 //
 
 import SwiftUI

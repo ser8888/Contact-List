@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F79E93828DF601600C6FA2B /* ContactSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79E93728DF601600C6FA2B /* ContactSectionView.swift */; };
+		7F79E93C28DF6C4E00C6FA2B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79E93B28DF6C4E00C6FA2B /* DataManager.swift */; };
 		7FF5F26628DF00D5001E37F6 /* Contact_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5F26528DF00D5001E37F6 /* Contact_ListApp.swift */; };
 		7FF5F26828DF00D5001E37F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5F26728DF00D5001E37F6 /* ContentView.swift */; };
 		7FF5F26A28DF00D7001E37F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF5F26928DF00D7001E37F6 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		7F79E93728DF601600C6FA2B /* ContactSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSectionView.swift; sourceTree = "<group>"; };
+		7F79E93B28DF6C4E00C6FA2B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		7FF5F26228DF00D5001E37F6 /* Contact List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF5F26528DF00D5001E37F6 /* Contact_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_ListApp.swift; sourceTree = "<group>"; };
 		7FF5F26728DF00D5001E37F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				7FF5F27328DF0195001E37F6 /* Person.swift */,
+				7F79E93B28DF6C4E00C6FA2B /* DataManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				7FF5F27428DF0195001E37F6 /* Person.swift in Sources */,
 				7F79E93828DF601600C6FA2B /* ContactSectionView.swift in Sources */,
 				7FF5F27928DF0C02001E37F6 /* DetailsView.swift in Sources */,
+				7F79E93C28DF6C4E00C6FA2B /* DataManager.swift in Sources */,
 				7FF5F26828DF00D5001E37F6 /* ContentView.swift in Sources */,
 				7FF5F26628DF00D5001E37F6 /* Contact_ListApp.swift in Sources */,
 				7FF5F27728DF0BF4001E37F6 /* ContactListView.swift in Sources */,
