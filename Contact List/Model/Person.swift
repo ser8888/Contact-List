@@ -7,7 +7,7 @@
 
 
 
-struct Person: Identifiable {
+struct Person: Identifiable, Hashable {
     
     let id: Int
     
@@ -17,7 +17,7 @@ struct Person: Identifiable {
     let email: String
     
     var fullname: String {
-        "\(firstName) + \(lastName)"
+        "\(firstName) \(lastName)"
     }
     static func getContactList() -> [Person] {
         

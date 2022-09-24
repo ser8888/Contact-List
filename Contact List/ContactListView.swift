@@ -13,12 +13,14 @@ struct ContactListView: View {
     
     var body: some View {
         NavigationStack {
-            ForEach(contacts, id: \.self) { contact in
-                Text("\(contacts)")
+            List(contacts) { person in
+                NavigationLink(destination: DetailsView(person: person)) {
+                    Text(person.fullname)
+                        .font(.title)
+                }
             }
-//            List(contacts) { person in
-//
-//            }
+
+            .navigationBarTitle("Contact List")
         }
     
     }
